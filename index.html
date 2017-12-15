@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adventure Game!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
+</head>
+<body id="body"> 
+
+    <div id="1">
+    <audio id="song" autoplay="" loop="">
+            <source src="" type="">
+           <embed src="" loop="true">
+    </audio>
+        <h1 id="title">Outlast</h1>
+        <button id="button1" href="#" onclick="setScene(2)">Start</button>
+        <button id="button1" href="#" onclick="setScene(10)">How to Play</button>
+    </div>
+
+    <div id="2">
+        <button id="button2" href="#" onclick="setScene(0)">Take Parachute and Jump out.</button>
+        <button id="button3" href="#" onclick="setScene(3)">Stay in the helicopter and hold on to something.</button>
+        <button id="button4" href="#" onclick="setScene(0)">Jump out of the helicopter. </button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">The story begins by u taking a flight in a helicopter looking for people that have gone missing in these places so u are here to make an interview about it and see why people have been missing of the past years. While u are in the helicopter suddenly the engine breaks and the helicopter is making a crash. What do u do?:</textarea>
+    </div>
+    
+    <div id="3">
+        <button id="button2" href="#" onclick="setScene(4)">The Town</button>
+        <button id="button4" href="#" onclick="setScene(5)">The Mansion</button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You managed to survive the crash landing sadly the pilot died of the crash and u need to find a way to get out of this place. Since your phone was in the Helicopter and probably is in the rubble you need to find a way to call for help. You have been walking through this forest for quite some time now and u are hearing a lot of sounds but u finally see some sort of buildings up ahead but Where are u going?:
+</textarea>
+    </div>
+
+    <div id="4">
+        <button id="button2" href="#" onclick="setScene(6)">Run.</button>
+        <button id="button3" href="#" onclick="setScene(0)">Try ask them to stop.</button>
+        <button id="button4" href="#" onclick="setScene(0)">Attack Back</button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You decided to go to the Town. You have been looking around the town and a lot of people seem to not like u being in that town. This place is not the place u think it would be, u try looking around some more and ask more people but suddenly a group of people in front of a house start chasing u with gardening tools. What do u do?:</textarea>
+    </div>
+
+    <div id="5">
+        <button id="button7" href="#" onclick="setScene(9)">Tear open Door</button>
+        <button id="button4" href="#" onclick="setScene(8)">Go to the shed</button> 
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You decided to go to the Mansion. You walk up to the mansion, you notice that all the windows are open and there is no light on inside. You knock on the door see if someone opens, there is no response. The door seems to be weak you can probably tear it open with something.</textarea>
+    </div>
+
+    <div id="6">
+        <button id="button2" href="#" onclick="setScene(0)">Make a run for it.</button>
+        <button id="button4" href="#" onclick="setScene(7)">Sneak past everyone.</button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You are at the Farm u see a field of hay, you decide to hide in the hayfield where they cant see you. They seem to be looking around for you so staying in the hayfield is not the best option, What do u do?:</textarea>
+    </div>
+
+     <div id="7">
+        <button id="button2" href="#" onclick="setScene(0)">Try moving the stones away behind you.</button>
+        <button id="button3" href="#" onclick="setScene(9)">Run.</button>
+        <button id="button4" href="#" onclick="setScene(0)">Lying down.</button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You manage to lose the people that were running after you it might not be long before they know where u went, You see a mine leading up to the mountains, You decide going into the mines and hopefully safely escape. When u entered the mines the pathway collapsed behind u and everything started shaking, You didn't expect these mines to be that unstable, What do you do?: </textarea>
+    </div>
+
+    <div id="8">
+        <button id="button2" href="#" onclick="setScene(5)">Go Back</button>
+        <button id="button4" href="#" onclick="setScene(-1)">Pick Up</button>
+        <section id="top">Adventure Game</section>
+        <textarea id="text" readonly="true">You look around in the shed trying to find something to open up the door, you see a crowbar lying in the corner of the room u can use that to open up the door.</textarea>
+    </div>
+
+    <div id="9">
+    </div>
+
+    <div id="10">
+    <textarea id="text2" readonly="true">This is a point and click game the way u play this game is u choose the right answer and u continue the story, if u choose the wrong choice u go gameover.</textarea>
+    <button id="button3" href="#" onclick="setScene(1)">Go Back</button>
+    </div>
+
+    <div id="0">
+        <button id="button5" href="#" onclick="setScene(1)">Try Again?</button>
+        <button id="button6" href="#" onclick="window.close()">Quit</button>
+    </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+    </html>

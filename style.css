@@ -1,0 +1,161 @@
+ul {
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;    
+}
+
+#title {    
+    color: white;
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Over the Rainbow', cursive;
+    letter-spacing: 160px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, rgb(255, 255, 255)), color-stop(0.15, rgb(209, 209, 209)), color-stop(0.3, rgb(134, 134, 134)), color-stop(0.45, rgb(85, 85, 85)), color-stop(0.6, rgb(68, 68, 68)),color-stop(0.75, rgb(44, 44, 44)), color-stop(0.9, rgb(36, 36, 36)), color-stop(1, rgb(12, 12, 12)) );
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#top {
+    width: 703.5px;
+    height: 100px;
+    background-color: black;
+    border: solid white 2px;
+    margin: 0 auto; 
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+
+}
+
+#text {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    color: white;
+    border: solid white 2px;
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    left: 606px;
+    margin-top: 10px;
+}   
+
+#button1 {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: block;
+    margin: 3px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#button2 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: block;
+    margin: 3px;
+    margin: auto;
+    margin-top: 10px;
+    position: absolute;
+    top: 650px;
+    left: 606px;
+}
+
+#button3 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: block;
+    margin: 3px;
+    margin: auto;
+    margin-top: 10px;
+    position: absolute;
+    top: 650px;
+    left: 885px;
+    
+}
+
+#button4 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: block;
+    margin: 3px;
+    margin: auto;
+    margin-top: 10px;
+    position: absolute;
+    top: 650px;
+    left: 1164px;
+}
+
+
+#button5 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: 670px;
+    left: 756px;
+}
+
+#button6 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    right: 756px;
+    top: 670px;
+}
+
+#button7 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: solid white 2px;
+    display: block;
+    margin: 3px;
+    margin: auto;
+    margin-top: 10px;
+    position: absolute;
+    top: 650px;
+    left: 606px;
+}
+
+#text2 {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    color: white;
+    border: solid white 2px;
+    margin: auto;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    margin-top: 10px;
+}
